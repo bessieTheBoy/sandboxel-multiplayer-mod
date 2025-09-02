@@ -12,6 +12,7 @@ function create_json_from_data(){
     return stringify(pixelMapClone);
 }
 
+// strap in for for loop hell.
 function load_data_from_json(input){
     var raw_parsed = parse(input);
     var pixel_data = [];
@@ -52,3 +53,4 @@ function load_data_from_json(input){
     return return_val;
 
 }
+
